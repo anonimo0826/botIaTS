@@ -1,3 +1,4 @@
+import "dotenv/config"
 import { createBot} from '@builderbot/bot'
 import database from './database'
 import provider from './provider'
