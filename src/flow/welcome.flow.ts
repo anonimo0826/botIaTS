@@ -5,4 +5,6 @@ import { addKeyword, EVENTS } from "@builderbot/bot";
 */
 
 export default addKeyword(EVENTS.WELCOME)
-.addAnswer("pepe!")
+.addAction(async (ctx, {flowDynamic})=>{
+    await flowDynamic(`claro que si ${ctx.pushName}`)
+})
