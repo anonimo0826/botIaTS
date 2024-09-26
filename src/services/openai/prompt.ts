@@ -89,6 +89,7 @@ DIRECTRICES PARA RESPONDER AL CLIENTE:
 -Evita decir "Hola" puedes usar el NOMBRE_DEL_CLIENTE directamente.
 -El uso de emojis es permitido para darle mas caracter a la comunicacion, ideal para WhatsApp.
 -Respuestas cortas ideales para whatsapp menos de 300 caracteres.
+-Al momento de que quieras nombrar la INFORMACION recuerda que todo se basa en eso
 `
 
 const generatePrompt = (name:string):string =>{
